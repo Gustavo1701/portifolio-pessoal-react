@@ -10,10 +10,13 @@ function MenuNavegacao() {
     return (
 
         <nav className="navbar navbar-expand-lg text-primary-emphasis bg-dark border border-primary-subtle" data-bs-theme="dark">
-            <div className="container-fluid ">
-                <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="logo" />
-                </Link>
+            <div className="container-fluid">
+               
+                    <Link className="navbar-brand" to="/">
+                        <img src={logo} alt="logo" className="mr-2" /> {/* Adicionando classe Bootstrap para margem à direita */}
+                        Gustavo Santos
+                    </Link>
+             
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link className="nav-link" aria-current="page" to="/">
