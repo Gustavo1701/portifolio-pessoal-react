@@ -8,7 +8,7 @@ const Home = () => {
             <h1>Meu nome é Gustavo, <br /> Sou Desenvolvedor Web Fullstack<br /> em formação.</h1>
 
             <p>Busco oportunidade na área de desenvolvimento de software. Sou formado em Análise e Desenvolvimento
-                de Sistemas, curso pós em Engenharia de Softwere e faço Promação FullStack na Dital College.
+                de Sistemas, curso pós em Engenharia de Softwere e faço Programação FullStack na Dital College.
             </p>
 
         </div>
