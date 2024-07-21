@@ -5,6 +5,7 @@ import Layout from './Pages/Layout'
 import Home from './Pages/Home'
 import Tecnologias from './Pages/Tecnologias'
 import Contatos from './Pages/Contatos'
+import NoPage from './Pages/NoPage';
 
 
 export default function App() {
