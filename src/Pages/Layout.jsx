@@ -9,18 +9,14 @@ import logo from '../assets/img/g.png'
 function MenuNavegacao() {
     return (
 
-        <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg text-primary-emphasis bg-dark border border-primary-subtle" data-bs-theme="dark">
             <div className="container-fluid ">
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="logo" />
                 </Link>
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link
-                            className="nav-link active"
-                            aria-current="page"
-                            to="/"
-                        >
+                        <Link className="nav-link" aria-current="page" to="/">
                             Home
                         </Link>
                     </li>
