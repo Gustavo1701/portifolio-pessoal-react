@@ -6,19 +6,22 @@ import Home from './Pages/Home'
 import Tecnologias from './Pages/Tecnologias'
 import Contatos from './Pages/Contatos'
 import NoPage from './Pages/NoPage';
+import './index.css';
+
 
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="tecnologias" element={<Tecnologias />} />
-          <Route path="contatos" element={<Contatos />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
+     
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="tecnologias" element={<Tecnologias />} />
+            <Route path="contatos" element={<Contatos />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
     </BrowserRouter>
   );
 }

@@ -1,18 +1,17 @@
 import React from 'react'
 
+
 const Home = () => {
     return (
 
-        <>
-            <div className="position-absolute w-100">
+        <>              
+            <div className="position-absolute w-100 opacity-75">
                 <div className="align-items-center justify-content-center p-3">
-                    <div className="container p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark">
-                        <p>Bem vindo!</p>
+                    <div className="container p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark" >                      
+                        <h1>Meu nome é Gustavo, <br /> </h1>
+                        <p> Sou Desenvolvedor Web Fullstack </p><br/>
 
-                        <h1>Meu nome é Gustavo, <br /> Sou Desenvolvedor Web Fullstack<br /> em formação.</h1>
-
-                        <p>Busco oportunidade na área de desenvolvimento de software. Sou formado em Análise e Desenvolvimento
-                            de Sistemas, curso pós em Engenharia de Softwere e faço Programação FullStack na Dital College.
+                        <p>Sou formado em Análise e Desenvolvimento de Sistemas, curso pós em Engenharia de Softwere e faço Programação FullStack na Dital College.
                         </p>
 
                     </div>
