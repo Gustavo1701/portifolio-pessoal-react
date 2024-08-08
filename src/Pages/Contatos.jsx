@@ -19,11 +19,7 @@ const Contatos = () => {
 
   return (
     <>
-<<<<<<< HEAD
-      <div className="position-absolute w-100 opacity-100">
-=======
       <div className="w-100 opacity-100">
->>>>>>> att
         <div className="align-items-center justify-content-center p-3">
           <div className="p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark">
             <h1 className="text-center">Fale conosco</h1>
