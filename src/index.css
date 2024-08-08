@@ -1,9 +1,16 @@
 body {
+<<<<<<< HEAD
     background-image: url('./assets/img/bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100vh;
+=======
+    background: black url('./assets/img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+>>>>>>> att
     overflow-x: hidden;
     margin: 0;
     padding: 0; 
