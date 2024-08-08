@@ -2,21 +2,44 @@ import React from 'react'
 
 
 const Contatos = () => {
+
+  function gerarEmail() {
+
+    const nome = document.getElementById("nomeContato").value;
+    const telefone = document.getElementById("telefoneContato").value;
+    const email = document.getElementById("emailContato").value;
+    const mensagem = document.getElementById("mensagemContato").value;
+
+    alert("Mensagem enviada. Retornaremos em breve, obrigado!");
+
+
+  }
+
+
+
   return (
     <>
-      <div className="position-absolute w-100 opacity-100">
+      <div className="w-100 opacity-100">
         <div className="align-items-center justify-content-center p-3">
-          <div class="p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark">
+          <div className="p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark">
             <h1 className="text-center">Fale conosco</h1>
-            <div class="mb-3 ">
-              <label for="exampleFormControlInput1" class="form-label"> Digite seu Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@example.com" />
+            <div className="mb-3 ">
+              <label for="exampleFormControlInput1" className="form-label">Nome</label>
+              <input type="text" className="form-control" id="nomeContato"/>
             </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Digite sua mensagem</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div className="mb-3 ">
+              <div className="mb-3 ">
+                <label for="exampleFormControlInput1" className="form-label">Telefone</label>
+                <input type="email" className="form-control" id="telefoneContato" placeholder="(99) 9 9999 9999" />
+              </div>
+              <label for="exampleFormControlInput1" className="form-label">Email</label>
+              <input type="email" className="form-control" id="emailContato" placeholder="nome@example.com" />
             </div>
-            <button type="button" class="btn btn-primary">Enviar</button>
+            <div className="mb-3">
+              <label for="exampleFormControlTextarea1" className="form-label">Digite sua Mensagem</label>
+              <textarea className="form-control" id="mensagemContato" rows="3"></textarea>
+            </div>
+            <button type="button" className="btn btn-primary" id='enviarEmail' onClick={gerarEmail}>Enviar</button>
           </div>
         </div>
       </div>

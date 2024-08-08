@@ -43,7 +43,7 @@ function MenuNavegacao() {
 function Rodape() {
     return (
         <>
-            <div className="position-absolute bottom-0 w-100 opacity-75">
+            <div className="bottom-0 w-100 opacity-75">
                 <div className="container-fluid d-flex align-items-center justify-content-center gap-4 bg-dark w-100 p-3">
                     <Link className="navbar-brand" to="https://www.linkedin.com/in/gustavo-santos-1701jr/" target='blank_'>
                         <img src={linkedin} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
