@@ -60,29 +60,26 @@ function MenuNavegacao() {
 
 function Rodape() {
     return (
-        <>
-            <div className="bottom-0 w-100 ">
-                <div className="container-fluid d-flex align-items-center justify-content-center gap-4 bg-dark w-100 p-3">
-                    <Link className="navbar-brand" to="https://www.linkedin.com/in/gustavo-santos-1701jr/" target='blank_'>
-                        <img src={linkedin} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
-                    </Link>
-                    <Link className="navbar-brand" to="https://github.com/Gustavo1701" target='blank_'>
-                        <img src={github} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
-                    </Link>
-                    <Link className="navbar-brand" to="https://instagram.com/gustavo_santos_17" target='blank_'>
-                        <img src={instagram} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
-
-                    </Link>
-                    <Link className="navbar-brand" to="https://api.whatsapp.com/send?phone=+5588998044971&text=Ol%C3%A1%2C" target='blank_'>
-                        <img src={whatsapp} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
-
-                    </Link>
-                </div>
+        <div className="footer fixed-bottom">
+            <div className="container-fluid d-flex align-items-center justify-content-center gap-4 bg-dark p-2">
+                <Link className="navbar-brand" to="https://www.linkedin.com/in/gustavo-santos-1701jr/" target='_blank'>
+                    <img src={linkedin} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
+                </Link>
+                <Link className="navbar-brand" to="https://github.com/Gustavo1701" target='_blank'>
+                    <img src={github} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
+                </Link>
+                <Link className="navbar-brand" to="https://instagram.com/gustavo_santos_17" target='_blank'>
+                    <img src={instagram} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
+                </Link>
+                <Link className="navbar-brand" to="https://api.whatsapp.com/send?phone=+5588998044971&text=Ol%C3%A1%2C" target='_blank'>
+                    <img src={whatsapp} alt="Logo" width="40" height="40" className="d-inline-block align-text-top" />
+                </Link>
             </div>
-
-        </>
-    )
+        </div>
+    );
 }
+
+
 
 const Layout = () => {
     return (

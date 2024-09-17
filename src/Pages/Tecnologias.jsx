@@ -10,7 +10,7 @@ import logoMysql from '../assets/img/tecnologias/cards/mysql.png';
 
 const Tecnologias = () => {
   return (
-    <div className="w-100">
+    <div className="w-100 content">
       <div className="container-fluid d-flex flex-wrap align-items-stretch justify-content-center gap-3 mt-3 mb-3">
 
         <div className="card bg-dark text-light border border-primary-subtle" data-bs-theme="dark" style={{ width: '16rem', height: '24rem', display: 'flex', flexDirection: 'column' }}>
