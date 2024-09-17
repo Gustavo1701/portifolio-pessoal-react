@@ -4,20 +4,21 @@ import bolinhas from '../assets/img/home/bolinhas.svg';
 
 const Home = () => {
     return (
-        <div className="align-items-center justify-content-center p-2 d-flex container text-primary-emphasis bg-dark border border-primary-subtle rounded-3" style={{
+        <div className="align-items-center justify-content-center p-2 d-flex container text-primary-emphasis bg-dark border border-primary rounded-3" style={{
             gap: 50, 
             marginBottom:'35px', 
             marginTop:'35px'}}>
             
-            <div className="container p-2 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark" style={{
+            <div className="container p-1 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark" style={{
                 
                 width: '50%',
                 height: '50%'
                 }}>
-                <h1>Meu nome é Gustavo,<br /></h1>
-                <p>Sou Desenvolvedor Web Fullstack</p><br />
+                <h2>Bem vindo ao meu protifólio pessoal.</h2><br />
+                <h3>Meu nome é Gustavo,</h3>
+                <p>Sou Desenvolvedor Fullstack em formação.</p><br />
                 <p>
-                    Sou formado em Análise e Desenvolvimento de Sistemas, curso pós em Engenharia de Software e faço Programação FullStack na Dital College.
+                    Sou formado em Análise e Desenvolvimento de Sistemas,<br/> curso pós-graduação em Engenharia de Software e faço Programação FullStack.
                 </p>
             </div>
 
