@@ -7,7 +7,7 @@ import Tecnologias from './Pages/Tecnologias';
 import Repositorios from './Pages/Repositorios';
 import Contatos from './Pages/Contatos';
 import NoPage from './Pages/NoPage';
-import './index.css';
+import '../src/assets/css/index.css';
 
 
 

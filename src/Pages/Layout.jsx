@@ -39,9 +39,9 @@ function MenuNavegacao() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/repositorios">
+                            {/* <Link className="nav-link" to="/repositorios">
                                 Repositórios
-                            </Link>
+                            </Link> */}
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contatos">
