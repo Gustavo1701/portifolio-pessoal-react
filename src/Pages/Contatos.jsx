@@ -18,7 +18,7 @@ const Contatos = () => {
 
   return (
     <>
-      <div className="w-100 vh-100 d-flex align-items-center justify-content-center">
+      <div className=" d-flex align-items-center justify-content-center mt-3 mb-3">
         <div className="p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark" style={{ width: '600px', height: '550px' }}>
           <h1 className="text-center">Fale conosco</h1>
           <div className="mb-3">

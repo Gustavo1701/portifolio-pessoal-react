@@ -4,10 +4,9 @@ import bolinhas from '../assets/img/home/bolinhas.svg';
 
 const Home = () => {
     return (
-        <div className="align-items-center justify-content-center p-2 d-flex container text-primary-emphasis bg-dark border border-primary rounded-3" style={{
+        <div className="align-items-center justify-content-center p-2 d-flex container text-primary-emphasis bg-dark border border-primary rounded-3 mt-3 mb-3" style={{
             gap: 50, 
-            marginBottom:'35px', 
-            marginTop:'35px'}}>
+            }}>
             
             <div className="container p-1 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark" style={{
                 
