@@ -10,26 +10,27 @@ function MenuNavegacao() {
     return (
 
         <nav id='navbar' className="navbar navbar-expand-lg text-primary-emphasis bg-dark border border-primary-subtle" data-bs-theme="dark">
+            
             <div className="container-fluid">
-                {/* Logo e Nome */}
+                
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="logo" className="mr-2" /> {/* Adicionando classe Bootstrap para margem à direita */}
+                    <img src={logo} alt="logo" className="mr-2" />
                     Gustavo Santos
                 </Link>
 
-                {/* Botão de Colapso (Navbar Toggler) */}
+                
                 <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                {/* Menu de Navegação */}
+                
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/">
-                                Home
+                                Sobre
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -38,13 +39,21 @@ function MenuNavegacao() {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="/repositorios">
+                                Repositórios
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/contatos">
                                 Contatos
                             </Link>
                         </li>
                     </ul>
+
                 </div>
+
             </div>
+
         </nav>
     );
 }
