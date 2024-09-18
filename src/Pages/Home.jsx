@@ -4,15 +4,11 @@ import bolinhas from '../assets/img/home/bolinhas.svg';
 
 const Home = () => {
     return (
-        <div className="content align-items-center justify-content-center p-2 d-flex container text-primary-emphasis bg-dark border border-primary rounded-3 mt-3 mb-3" style={{
+        <div id='containerHome' className="content align-items-center justify-content-center p-2 d-flex container text-primary-emphasis bg-dark border border-primary rounded-3 mt-3 mb-3" style={{
             gap: 50, 
             }}>
             
-            <div className="container p-1 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark" style={{
-                
-                width: '50%',
-                height: '50%'
-                }}>
+            <div id='containerHomeText' className="container p-1 text-primary-emphasis bg-dark border border-primary-subtle rounded-3" data-bs-theme="dark">
                 <h2>Bem vindo ao meu protifólio pessoal.</h2><br />
                 <h3>Meu nome é Gustavo,</h3>
                 <p>Sou Desenvolvedor Fullstack em formação.</p><br />
@@ -21,11 +17,9 @@ const Home = () => {
                 </p>
             </div>
 
-            <div className="container p-3 text-primary-emphasis bg-dark" data-bs-theme="dark" style={{
-                
+            <div id='containerHomeImage' className="container p-3 text-primary-emphasis bg-dark" data-bs-theme="dark" style={{
                 width: '50%',
                 height: '50%',
-                display: 'flex',
                 flexDirection: 'column',
                 
                 justifyContent: 'center',

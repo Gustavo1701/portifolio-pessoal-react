@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -13,9 +14,11 @@ body {
     flex-direction: column;
     overflow-x: hidden;
 }
+
 .content {
     flex: 1;
-    padding-bottom: 60px; /* Ajuste essa altura para corresponder à altura do rodapé */
+    padding-bottom: 60px;
+    /* Ajuste essa altura para corresponder à altura do rodapé */
 }
 
 .footer {
@@ -40,3 +43,27 @@ body {
     flex-direction: column;
 }
 
+#containerHomeImage {
+    display: flex;
+}
+
+#containerHomeText {
+    width: '50%';
+    height: '50%'
+}
+
+
+@media (max-width: 678px) {
+    #containerHomeImage {
+        display: none;
+    }
+
+    #containerHomeText {
+        width: 80%;
+        height: 70vh;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
