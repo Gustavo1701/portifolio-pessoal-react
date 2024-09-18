@@ -14,7 +14,7 @@ function MenuNavegacao() {
             <div className="container-fluid">
                 
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="logo" className="mr-2" />
+                    <img id='logoNavbar' src={logo} alt="logo" className="mr-2" />
                     Gustavo Santos
                 </Link>
 

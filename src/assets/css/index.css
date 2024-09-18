@@ -43,6 +43,10 @@ body {
     flex-direction: column;
 }
 
+#logoNavbar{
+    margin-right: 20px;
+}
+
 #containerHomeImage {
     display: flex;
 }
